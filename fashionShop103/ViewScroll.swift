@@ -65,7 +65,7 @@ var photo = UIImageView()
     }
         
     @IBAction func SliderZoom(_ sender: UISlider) {
-        scrollView.zoomScale = CGFloat(sender.value)
+        scrollView.zoomScale = CGFloat(sender.value) / 0.5
         
     }
     
