@@ -14,6 +14,8 @@
 		1EF7ACDF1DBF559E00310B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF7ACDD1DBF559E00310B60 /* LaunchScreen.storyboard */; };
 		1EF7ACEA1DBF559E00310B60 /* fashionShop103Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF7ACE91DBF559E00310B60 /* fashionShop103Tests.swift */; };
 		1EF7ACF51DBF559E00310B60 /* fashionShop103UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF7ACF41DBF559E00310B60 /* fashionShop103UITests.swift */; };
+		1EF7AD031DBF55BD00310B60 /* ViewScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF7AD021DBF55BD00310B60 /* ViewScroll.swift */; };
+		1EF7AD051DBF568300310B60 /* shop1-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EF7AD041DBF568300310B60 /* shop1-0.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1EF7ACF01DBF559E00310B60 /* fashionShop103UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fashionShop103UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF7ACF41DBF559E00310B60 /* fashionShop103UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashionShop103UITests.swift; sourceTree = "<group>"; };
 		1EF7ACF61DBF559E00310B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EF7AD021DBF55BD00310B60 /* ViewScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewScroll.swift; sourceTree = "<group>"; };
+		1EF7AD041DBF568300310B60 /* shop1-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shop1-0.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +101,9 @@
 		1EF7ACD31DBF559E00310B60 /* fashionShop103 */ = {
 			isa = PBXGroup;
 			children = (
+				1EF7AD041DBF568300310B60 /* shop1-0.jpg */,
 				1EF7ACD41DBF559E00310B60 /* AppDelegate.swift */,
+				1EF7AD021DBF55BD00310B60 /* ViewScroll.swift */,
 				1EF7ACD61DBF559E00310B60 /* ViewController.swift */,
 				1EF7ACD81DBF559E00310B60 /* Main.storyboard */,
 				1EF7ACDB1DBF559E00310B60 /* Assets.xcassets */,
@@ -234,6 +240,7 @@
 			files = (
 				1EF7ACDF1DBF559E00310B60 /* LaunchScreen.storyboard in Resources */,
 				1EF7ACDC1DBF559E00310B60 /* Assets.xcassets in Resources */,
+				1EF7AD051DBF568300310B60 /* shop1-0.jpg in Resources */,
 				1EF7ACDA1DBF559E00310B60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF7AD031DBF55BD00310B60 /* ViewScroll.swift in Sources */,
 				1EF7ACD71DBF559E00310B60 /* ViewController.swift in Sources */,
 				1EF7ACD51DBF559E00310B60 /* AppDelegate.swift in Sources */,
 			);
